@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form ass2</title>
+	<style>
+		h2{
+			color:darkslategrey;
+			background:radial-gradient(circle,deeppink,grey,deeppink);
+			width: 200px;
+			padding: 5px;
+			border:5px solid green;
+			border-radius: 20px;
+
+		}
+		body{
+			background:url("html images/waterdrop.jpg") no-repeat fixed center;
+			background-size: cover;
+		}
+		form{
+				width: 40%;
+				background:linear-gradient(45deg,skyblue,yellow,deeppink);
+				margin:40px auto;
+				border-radius: 20px;
+		}
+		.ip{
+			width: 70%;
+		}
+		input{
+			color: white;
+			background:linear-gradient(45deg,orange,blue,pink);
+		}
+		label{
+			color:deeppink;
+			background: linear-gradient(45deg,yellow,orange,yellow);
+			padding:1px;
+			border-radius: 5px;
+			border-color:3px solid green;
+		}
+		textarea{
+			background:linear-gradient(135deg,violet,green,violet);
+		}
+		select{
+			background: linear-gradient(175deg,deeppink,grey,deeppink);
+		}
+		#rad{
+			color:red;
+		}
+		
+	</style>
+</head>
+<body>
+	<div>
+		<center>
+		<form>
+			<table>
+				<h2 align="center">Registration Form</h2>
+				<tr>
+					<td><label>Name</label></td>
+					<td><input type="text" class="ip"></td>
+					<td><label>CMC</label></td>
+					<td><input type="text" ></td>
+
+				</tr>
+				<tr>
+					<td><label>Course</label></td>
+					<td><input type="text" class="ip"></td>
+					<td><label>Section</label></td>
+					<td><input type="text"></td>
+
+				</tr>
+				<tr>
+					<td><label>Email</label></td>
+					<td><input type="Email" class="ip"></td>
+					<td><label>Password</label></td>
+					<td><input type="Password"></td>
+
+				</tr>
+				<tr>
+					<td><label>Address</label></td>
+					<td><textarea cols="13" rows="3"></textarea></td>
+				</tr>
+				<tr>
+					<td><label>Gender</label></td>
+					<!-- <td colspan="1"></td> -->
+					<td><input type="radio" name="r1" id="rad">Male
+					<input type="radio" name="r1">Female</td>
+				</tr>
+				<tr>
+					<td><label>city</label></td>
+					<td><select>
+						<option>select city</option>
+						<option>Hyderabad</option>
+						<option>Bangalore</option>
+						<option>Chennai</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"></td>
+					<td id="sub"><input type="submit"></td>
+				</tr>
+			</table>
+			
+		</form>
+		</center>
+	</div>
+
+</body>
+</html>
